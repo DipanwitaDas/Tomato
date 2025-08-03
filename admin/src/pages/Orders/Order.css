@@ -1,0 +1,62 @@
+/* orderTable.css */
+
+.admin-orders {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.order-title {
+  text-align: center;
+  color: tomato; /* Main heading color */
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-top: 1px solid #ccc;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.order-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  font-size: 16px;
+  color: tomato; /* Column heading color */
+}
+
+.order-table td {
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 200px;
+  color: black; /* Data cell color */
+}
+
+@media screen and (max-width: 768px) {
+  .order-table th,
+  .order-table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .order-table {
+    min-width: 900px;
+  }
+}
